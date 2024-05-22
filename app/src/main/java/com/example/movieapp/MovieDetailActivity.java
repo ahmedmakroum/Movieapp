@@ -76,7 +76,7 @@ public class MovieDetailActivity extends AppCompatActivity implements
         mapFragment.getMapAsync(this);
     }
     private void fetchMovieDetails(int movieId) {
-        String TMDB_API_KEY = "774466ebe061adb0260e953f8424b263";
+        String TMDB_API_KEY = "ur api";
         String movieDetailsUrl = "https://api.themoviedb.org/3/movie/" + movieId +
                 "?api_key=" + TMDB_API_KEY;
         String movieVideosUrl = "https://api.themoviedb.org/3/movie/" + movieId +
